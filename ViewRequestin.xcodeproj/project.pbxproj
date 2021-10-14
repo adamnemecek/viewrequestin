@@ -23,7 +23,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		379F55AB2717DE8000EC0E8C /* ViewRequestin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ViewRequestin.entitlements; sourceTree = "<group>"; };
 		37C607DA2624A57B00CD72A1 /* ViewRequestin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ViewRequestin; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C607DD2624A57B00CD72A1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +57,6 @@
 		37C607DC2624A57B00CD72A1 /* ViewRequestin */ = {
 			isa = PBXGroup;
 			children = (
-				379F55AB2717DE8000EC0E8C /* ViewRequestin.entitlements */,
 				37C607DD2624A57B00CD72A1 /* main.swift */,
 			);
 			path = ViewRequestin;
@@ -246,10 +244,7 @@
 		37C607E22624A57B00CD72A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = ViewRequestin/ViewRequestin.entitlements;
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL8K7LH7KS;
-				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -258,10 +253,7 @@
 		37C607E32624A57B00CD72A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = ViewRequestin/ViewRequestin.entitlements;
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JL8K7LH7KS;
-				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
